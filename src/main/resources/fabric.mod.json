@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "ProjectU",
+  "version": "${version}",
+  "name": "ProjectU",
+  "description": "EMC for fabric.",
+  "authors": [
+    "Daschi1"
+  ],
+  "contact": {
+    "repo": "https://github.com/Daschi1/ProjectU"
+  },
+  "license": "MIT",
+  "icon": "assets/ProjectU/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.daschi.projectu.client.ProjectUClient"
+    ],
+    "main": [
+      "de.daschi.projectu.ProjectU"
+    ]
+  },
+  "mixins": [
+    "ProjectU.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.2+build.206",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  }
+}
