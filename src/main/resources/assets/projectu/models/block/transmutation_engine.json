@@ -1,0 +1,8 @@
+{
+  "parent": "projectu:block/quarter_slab_bottom",
+  "textures": {
+    "bottom": "projectu:block/transmutation_engine_bottom",
+    "top": "projectu:block/transmutation_engine_top",
+    "side": "projectu:block/transmutation_engine_side"
+  }
+}
